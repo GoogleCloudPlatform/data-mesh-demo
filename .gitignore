@@ -1,0 +1,7 @@
+.idea
+**/.terraform*
+**/terraform.tfstate*
+original_active_account
+sa-key.json
+**/.gradle
+**/build

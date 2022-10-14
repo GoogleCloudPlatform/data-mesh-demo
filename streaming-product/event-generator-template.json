@@ -1,0 +1,1 @@
+{"ip_addr": "10.2.1.{{integer(1,254)}}", "url": "page{{integer(1,300)}}", "request_time": {{timestamp()}}, "customer_id": "user{{integer(1000,9999)}}"}
