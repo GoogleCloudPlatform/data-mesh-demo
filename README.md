@@ -34,7 +34,7 @@ You would need to create Google Cloud's Application Default Credentials using
 gcloud auth application-default login
 ```
 
-#### Service Account Problem
+#### Treaform Service Account Problem
 If you are using cloud shell with terraform, you will need to assign `Service Account Token Creator` role to the user account you have authenticated the cloud shell session with/ This is not the same as the default service account - which works for most of the teraform actions. 
 
 One will encounter a `403` error while creating tag templates during the setup below without `Service Account Token Creator` role assigned to the user. 
