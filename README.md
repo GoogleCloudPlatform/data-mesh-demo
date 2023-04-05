@@ -36,7 +36,7 @@ gcloud auth application-default login
 
 #### Permissions of the principal running the Terraform scripts
 Typicially a person with `Owner` or `Editor` basic roles will execute the Terraform scripts to set up the infrastructure of the Data Mesh. These scripts can also be run using a service account with sufficent privileges. 
-It is important that the principal running the scripts has `Service Account Token Creator` role. Without it the scripts will fail with a `403` error while creating tag templates. 
+It is important that the principal running the scripts has `Service Account Token Creator` role at the `Domain/Org level` policy rather than the project level. Without it the scripts will fail with a `403` error while creating tag templates. 
 
 
 To start the data mesh infrastructure build process:
